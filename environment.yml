@@ -1,0 +1,25 @@
+name: machinelearning
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - anaconda-client
+  - astropy=4.2
+  - conda-build
+  - cython
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - numpy
+  - pandas
+  - pip
+  - python=3.9
+  - pyyaml
+  - scikit-learn
+  - scipy
+  - tqdm
+  - wheel
+  - pip:
+    - build
